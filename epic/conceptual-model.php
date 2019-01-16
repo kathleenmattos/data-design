@@ -23,19 +23,19 @@
 			<li>postUploadDate</li>
 			<li>postUpvoteValue</li>
 		</ul>
-		<h4>Comment</h4>
+		<h4>Comment:</h4>
 		<ul>
-			<li>userCommentId (primary key)</li>
-			<li>userCommentUserId (foreign key)</li>
-			<li>userCommentPostId (foreign key)</li>
-			<li>userCommentContent</li>
+			<li>commentId (primary key)</li>
+			<li>commentUserId (foreign key)</li>
+			<li>commentPostId (foreign key)</li>
+			<li>commentContent</li>
 		</ul>
-		<h4>Likes:</h4>
+		<h4>Upvote:</h4>
 		<ul>
-			<li>userUpvoteId (primary key)</li>
-			<li>userUpvotePostId (foreign key)</li>
-			<li>userUpvotePostId (foreign key)</li>
-			<li>userUpvoteValue</li>
+			<li>upvoteId (primary key)</li>
+			<li>upvotePostId (foreign key)</li>
+			<li>upvotePostId (foreign key)</li>
+			<li>upvoteValue</li>
 		</ul>
 		<h3>Relations</h3>
 		<ul>
