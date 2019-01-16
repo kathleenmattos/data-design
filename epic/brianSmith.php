@@ -7,6 +7,7 @@
 	<body>
 		<h1>Meet Brian</h1>
 		<h2>User Persona:</h2>
+		<img src="brianSmith.jpg" alt="Brian Smith">
 		<ul>
 			<li>Name: Brian Smith</li>
 			<li>Age: 24</li>
@@ -40,5 +41,7 @@
 				</ul>
 			</li>
 		</ul>
+		<h3>User Story:</h3>
+			<p>As a user, Brian would like to share a breaking game news story with people with similar interests. </p>
 	</body>
 </html>
