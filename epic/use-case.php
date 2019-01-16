@@ -26,5 +26,6 @@
 			<li>Brian is now able to see his post at the top of the page.</li>
 		</ul>
 		<p><strong>Frequency of Use:</strong> Daily</p>
+		<p><a href="index.php">Return</a></p>
 	</body>
 </html>

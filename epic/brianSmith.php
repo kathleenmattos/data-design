@@ -47,5 +47,6 @@
 		</ul>
 		<h3>User Story:</h3>
 			<p>As a user, Brian would like to share a breaking game news story with people with similar interests. </p>
+		<p><a href="index.php">Return</a></p>
 	</body>
 </html>

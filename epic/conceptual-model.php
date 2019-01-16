@@ -47,5 +47,8 @@
 	<!--
 		<h2>Entity Relationship Diagram</h2>
 	-->
+		<p>
+			<a href="index.php">Return</a>
+		</p>
 	</body>
 </html>
