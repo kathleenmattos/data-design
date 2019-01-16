@@ -41,10 +41,11 @@
 		<ul>
 			<li>One user can have many posts, comments, and upvotes. (1 to many)</li>
 			<li>One post can have many comments and upvotes. (1 to many)</li>
+			<li>Many posts can be like my many users. (many to many)</li>
 		</ul>
 
-
+	<!--
 		<h2>Entity Relationship Diagram</h2>
-
+	-->
 	</body>
 </html>
