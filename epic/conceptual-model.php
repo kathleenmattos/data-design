@@ -41,10 +41,8 @@
 			<li>One post can have many comments and upvotes. (1 to many)</li>
 			<li>Many posts can be liked by many users. (many to many)</li>
 		</ul>
-
-	<!--
 		<h2>Entity Relationship Diagram</h2>
-	-->
+		<img src="entityRelationshipDiagram.png" alt="Entity Relationship Diagram"/>
 		<p>
 			<a href="index.php">Return</a>
 		</p>
