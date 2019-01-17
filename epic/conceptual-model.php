@@ -21,7 +21,6 @@
 			<li>postTitle</li>
 			<li>postContent</li>
 			<li>postUploadDate</li>
-			<li>postUpvoteValue</li>
 		</ul>
 		<h4>Comment:</h4>
 		<ul>
@@ -33,15 +32,14 @@
 		<h4>Upvote:</h4>
 		<ul>
 			<li>upvoteId (primary key)</li>
+			<li>upvoteUserId (foreign key)</li>
 			<li>upvotePostId (foreign key)</li>
-			<li>upvotePostId (foreign key)</li>
-			<li>upvoteValue</li>
 		</ul>
 		<h3>Relations</h3>
 		<ul>
 			<li>One user can have many posts, comments, and upvotes. (1 to many)</li>
 			<li>One post can have many comments and upvotes. (1 to many)</li>
-			<li>Many posts can be like my many users. (many to many)</li>
+			<li>Many posts can be liked by many users. (many to many)</li>
 		</ul>
 
 	<!--
