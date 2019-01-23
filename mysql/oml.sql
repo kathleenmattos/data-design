@@ -12,3 +12,6 @@ INSERT INTO post(postId, postUserId, postTitle, postContent, postUploadDate) VAL
 
 SELECT userId, userActivationToken, userName, userPassword, userEmail from user WHERE userId = UNHEX("c69bdfe79bb04b0cb8ef4c76041980fb");
 
+SELECT post.postId, post.postTitle, post.postContent FROM post INNER JOIN `user` ON post.postUserId = user.userId WHERE post.postId = UNHEX("ff91b22b98be4cb2947011d6f0656073");
+
+SELECT COUNT(*) FROM comment WHERE commentPostId = UNHEX("ff91b22b98be4cb2947011d6f0656073")
